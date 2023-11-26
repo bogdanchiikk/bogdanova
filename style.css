@@ -1,0 +1,130 @@
+/* #parent input {
+	color: red;
+}
+.julia {
+	width: 568px;
+	height: 568px;
+	background: green;
+}
+
+.colored {
+	color: green;
+}
+
+.colored1 {
+	color: red;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* #elem {
+	display: none;//элемент скрыт
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+} */
+/* #elem.active {
+	display: block;
+}
+
+ul {
+	padding: 30px;
+	border: 1px solid red;
+}
+li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	border: 1px dashed black;
+}
+
+#elem1 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 1px;
+    background: #97FF97;
+}
+
+#elem2 {
+    width: 140px;
+    height: 140px;
+    margin: 30px;
+    padding: 1px;
+    background: #7777FF;
+}
+
+#elem3 {
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    padding: 1px;
+    background: #FF7D7D;
+}  */
+
+/* div {
+	padding: 20px;
+	border: 1px solid red;
+}
+
+p {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+} */
+
+/* div, ul, li {
+	padding: 20px;
+}
+
+div {
+	border: 1px solid red;
+}
+ul {
+	border: 1px solid orange;
+}
+li {
+	border: 1px solid green;
+}
+
+#block:not(.active) {
+	display: none;
+} */
+
+td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+.text {
+	text-decoration: line-through;
+}
+
+.textt {
+	background-color: green;
+}
+
+.hidden {
+	display: none;
+}
+
+.active {
+	background: red;
+}
+
+.color1 {
+	background: red;
+}
+.color2 {
+	background: green;
+}
+
+.color3 {
+	background: yellow;
+}
