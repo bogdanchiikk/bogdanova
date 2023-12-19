@@ -1,45 +1,45 @@
 // 4.1.угадай ячейку
-const gameTable = document.getElementById('game');
-const cells = []; //клетки
-const computerPicks = []; //выбор компьютера
-for (let i = 0; i < 10; i++) {
-    let tr = document.createElement('tr'); //ряды
-    cells[i] = [];
-for (let j = 0; j < 10; j++) {
-    let td = document.createElement('td'); //ячейки
-    tr.appendChild(td);
-    cells[i][j] = td;
-    td.addEventListener('click', () => checkCell(i, j));
-    gameTable.appendChild(tr);
-  }
-}
-for (let i = 0; i < 10; i++) {
-    const randomRow = Math.floor(Math.random() * 10);
-    const randomCol = Math.floor(Math.random() * 10);
-    computerPicks.push({row: randomRow, col: randomCol});
-}
-function checkCell(row, col) {
-    const clickedCell = cells[row][col];
-for (let i = 0; i < computerPicks.length; i++) {
-    if (computerPicks[i].row === row && computerPicks[i].col === col) {
-      clickedCell.classList.add('clicked');
-      clickedCell.textContent = 'в точку!';
-      computerPicks.splice(i, 1);
-    if (computerPicks.length === 0) {
-        alert('ты выиграл!');
-    }
-    return;
-    }
-}
-clickedCell.classList.add('clicked');
-}
+// let gameTable = document.getElementById('game');
+// let cells = []; //клетки
+// let computerPicks = []; //выбор компьютера
+// for (let i = 0; i < 10; i++) {
+//     let tr = document.createElement('tr'); //ряды
+//     cells[i] = [];
+// for (let j = 0; j < 10; j++) {
+//     let td = document.createElement('td'); //ячейки
+//     tr.appendChild(td);
+//     cells[i][j] = td;
+//     td.addEventListener('click', () => checkCell(i, j));
+//     gameTable.appendChild(tr);
+//   }
+// }
+// for (let i = 0; i < 10; i++) {
+//     let randomRow = Math.floor(Math.random() * 10);
+//     let randomCol = Math.floor(Math.random() * 10);
+//     computerPicks.push({row: randomRow, col: randomCol});
+// }
+// function checkCell(row, col) {
+//     let clickedCell = cells[row][col];
+// for (let i = 0; i < computerPicks.length; i++) {
+//     if (computerPicks[i].row === row && computerPicks[i].col === col) {
+//       clickedCell.classList.add('clicked');
+//       clickedCell.textContent = 'в точку!';
+//       computerPicks.splice(i, 1);
+//     if (computerPicks.length === 0) {
+//         alert('ты выиграл!');
+//     }
+//     return;
+//     }
+// }
+// clickedCell.classList.add('clicked');
+// }
 
 // 4.2.угадай ячейку
-// const gameTable = document.getElementById('game');
-// const cells = []; //клетки
-// const computerPicks = []; //выбор компьютера
+// let gameTable = document.getElementById('game');
+// let cells = []; //клетки
+// let computerPicks = []; //выбор компьютера
 // let timer = 10; 
-// const timerText = document.createElement('div');
+// let timerText = document.createElement('div');
 // timerText.textContent = timer;
 // document.body.insertBefore(timerText, gameTable);
 // for (let i = 0; i < 10; i++) {
@@ -54,12 +54,12 @@ clickedCell.classList.add('clicked');
 //   }
 // }
 // for (let i = 0; i < 10; i++) {
-//     const randomRow = Math.floor(Math.random() * 10);
-//     const randomCol = Math.floor(Math.random() * 10);
+//     let randomRow = Math.floor(Math.random() * 10);
+//     let randomCol = Math.floor(Math.random() * 10);
 //     computerPicks.push({row: randomRow, col: randomCol});
 // }
 // function checkCell(row, col) {
-//     const clickedCell = cells[row][col];
+//     let clickedCell = cells[row][col];
 // for (let i = 0; i < computerPicks.length; i++) {
 //     if (computerPicks[i].row === row && computerPicks[i].col === col) {
 //       clickedCell.classList.add('clicked');
@@ -90,7 +90,7 @@ clickedCell.classList.add('clicked');
 // updateTimer(); 
 
 //5.экранная клавиатура на JavaScript
-// const keyboardLayout = [
+// let keyboardLayout = [
 //     ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
 //     ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
 //     ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';'],
