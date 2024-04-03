@@ -1,0 +1,53 @@
+/* #8.1
+/* #elem {
+	width: 200px;
+	height: 200px;
+} */
+
+/* #8.2 */
+/* #elem {
+	width: 200px;
+	height: 200px;
+} */
+
+/* #9.1 */
+/* #elem {
+	font-size: 2em;
+} */
+
+/* #10.1 */
+/* .odd {
+	color: green;
+}
+.even {
+	color: red;
+} */
+
+/* #11.1 */
+/* div.active {
+	color: red;
+}
+div:not(active) {
+	color: black;
+} */
+
+/* #12.1 */
+/* .success {
+	border-color: green;
+}
+.warrning {
+	border-color: red;
+} 
+
+#13.1 
+/* [data-type="success"] {
+	border-color: green;
+}
+[data-type="warning"] {
+	border-color: yellow;
+}
+[data-type="error"] {
+	border-color: red;
+} */
+
+
