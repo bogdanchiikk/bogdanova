@@ -243,7 +243,7 @@
 // parent.append(p);console.log(elems1); // 4 абзаца - с новым
 // console.log(elems2); // 3 начальных абзаца
 
-// #50.2
+// 50.2
 // let parent = document.querySelector('div');
 // let elems1 = document.getElementsByTagName('p'); 
 // let elems2 = document.querySelectorAll('p');     
